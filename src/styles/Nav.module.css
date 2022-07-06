@@ -1,0 +1,23 @@
+.hamburger {
+  margin-right: 12px !important;
+  margin-bottom: 10px !important;
+  position: fixed;
+  top: 7px;
+  right: 0;
+  z-index: 9999;
+}
+
+@media (min-width: 575.98px) {
+  .hamburger {
+    display: none;
+  }
+  .navigation {
+    display: flex !important;
+  }
+  .navigation-container ul {
+    display: flex !important;
+  }
+  .navigation-container li {
+    display: flex !important;
+  }
+}
